@@ -10,7 +10,7 @@ const blocked_region = ['TK']
 //资源重定向
 const replace_dict = {
   $upstream: '$custom_domain',
-  'www.google.com/': 'x-3g9.pages.dev/', //填入你的子域名，保留最后面的/
+  'https://www.google.com/': 'https://x-3g9.pages.dev/', //填入你的子域名，保留最后面的/
   'gstatic.com': 'gstatic.cn',
   'ajax.googleapis.com': 'ajax.lug.ustc.edu.cn',
   'fonts.googleapis.com': 'fonts.googleapis.cn',
